@@ -30,6 +30,7 @@ INSTALLED_APPS = [
 
     #apps
     'apis.apps.ApisConfig',
+    'todo.apps.TodoConfig',
 
     #third party
     'rest_framework',
