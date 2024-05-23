@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #apps
-    'main.apps.MainConfig',
+    'apis.apps.ApisConfig',
 
     #third party
     'rest_framework',
@@ -45,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ToDoList.urls'
+ROOT_URLCONF = 'setup.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ToDoList.wsgi.application'
+WSGI_APPLICATION = 'setup.wsgi.application'
 
 
 # Database
