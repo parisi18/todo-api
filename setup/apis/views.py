@@ -5,7 +5,7 @@ from rest_framework.authentication import BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
 
 class TodoViewSet(viewsets.ModelViewSet):
-    """A simple ViewSet for viewing and editing accounts."""
+    """ViewSet for the ToDo class"""
     queryset = ToDo.objects.all()
     serializer_class = TodoSerializer
     authentication_classes = [BasicAuthentication]
