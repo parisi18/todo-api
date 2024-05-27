@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import *
+from todo.models import Todo
 
-admin.site.register(ToDoList)
+admin.site.register(Todo)
 
 class ToDoListAdmin(admin.ModelAdmin):
     list_display = ('title', 'description', 'date', 'completed')
