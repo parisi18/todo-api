@@ -1,7 +1,18 @@
-# todo-api
-Exemplo de Todo utilizando Django REST API
+# TODO-API
+Exemplo de TodoList utilizando Django REST API
 
-Para se conectar:
-```
-http://3.142.235.39:8000/apis/v1/
-```
+## Sobre o Projeto
+Esta API tem como objetivo atender a requisições em um sistema que fará a criação de tarefas no molde TODO. Sendo que, todos possuem campos editáveis, sendo estes:
+- Título (Máx 200 caracteres)
+- Descrição
+- Data de criação (Default = dia da criação)
+- Status ( A fazer, Fazendo, Pronto)
+- Check Completo ( Booleano )
+
+## Host
+A API encontra-se hosteada em serviço AWS EC2 Free tier.  
+Para testar utilizando a UI DRF (Django Rest Framework) acesse [AQUI](http://3.142.235.39:8000/todo/).
+
+## Docs
+[Swagger](http://3.142.235.39:8000/swagger/)
+
