@@ -2,7 +2,7 @@
 Exemplo de TodoList utilizando Django REST API
 
 ## Sobre o Projeto
-Esta API tem como objetivo atender a requisições em um sistema que fará a criação de tarefas no molde TODO. Sendo que, todos possuem campos editáveis, sendo estes:
+Esta API tem como objetivo atender a requisições em um sistema que fará a criação de tarefas no molde TODO. Sendo que, todas as tarefas possuem os campos editáveis, sendo estes:
 - Título (Máx 200 caracteres)
 - Descrição
 - Data de criação (Default = dia da criação)
